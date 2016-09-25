@@ -1,0 +1,72 @@
+$clrprim: #ff4c6b
+$clrprim2: #2BA6FF
+//#ff4c6b
+// #e64646
+$clr1: #C7CBFF
+$clr2: #B5B8E8
+$clr3: #A5A8D4
+$clr4: #9396BD
+$clr5: #7F82A3
+$clr6: #808192
+//#6F718F
+$clr7: #656777
+//#5B5D75
+$clr8: #48495C
+$clr9: #3A3B4A
+$clr10: #2A2B36
+$clr11: #1E1E26
+$clrpass: #19BF26
+
+
+// mixin's
+=vc-height($height)
+  height: $height
+  line-height: $height
+=anim()
+  transition: all 0.3s ease
+=selectnone()
+  user-select: none
+  cursor: pointer
+=border()
+  border: 1px solid black
+=popup()
+  position: absolute
+  top: 45px
+  right: 120px
+  bottom: 0
+  height: 300px
+  width: 550px
+  background-color: rgba(white, 0.95)
+
+
+
+// animation
+
+.loading
+  position: fixed
+  height: 100vh
+  width: 100vw
+  background-color: rgba(white, 0.30)
+  display: flex
+  flex-direction: column
+  justify-content: center
+  z-index: 5
+  top: 0px
+  left: 0px
+  div
+    width: 55px
+    height: 55px
+    margin: 100px auto
+    background-color: $clrprim2
+    border-radius: 100%  
+    animation: sk-scaleout 1.0s infinite ease-in-out
+
+
+@keyframes sk-scaleout 
+  0%  
+    transform: scale(0) 
+  100% 
+    transform: scale(1.0)
+    opacity: 0
+
+  

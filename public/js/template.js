@@ -1,0 +1,41 @@
+var template = {
+  a: {clss: "1",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "personal"},
+  b: {clss: "2",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "musicians"},
+  c: {clss: "3",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "blogs"},
+  d: {clss: "4",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "businesse"},
+  e: {clss: "5",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "designer"},
+  f: {clss: "6",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "hotel"},
+  g: {clss: "7",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "photography"},
+  h: {clss: "8",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "stores"},
+  i: {clss: "9",hrf: "#",
+      imgsrc: "http://dummyimage.com/300x200/e0e0e0/ffffff.jpg&text=template",
+      alt: "skp website template", title: "portfolio"}
+}
+
+var category = {
+  personal: [1,2,3],
+  musicians: [2],
+  blogs: [3],
+  businesse: [4],
+  designer: [5],
+  hotel: [6],
+  photography: [7],
+  stores: [8],
+  portfolio: [9]
+}

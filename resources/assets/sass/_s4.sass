@@ -1,0 +1,84 @@
+section#s4
+  width: 100%
+  height: 500px
+.s4-c
+  height: 100%
+  .s4-item1,.s4-item2
+    width: 50%
+    float: left
+    height: 100%
+    display: flex
+    flex-direction: column
+    justify-content: center
+  .s4-item1>div,.s4-item2>div
+    margin: 0 auto
+.s4-item1>div>h2
+  margin:
+    top: 20px
+  color: $clr8
+.s4-item1>div>h1
+  user-select: none
+  letter-spacing: 2px
+  color: $clr9
+  .tfms
+    font-size: 3.5em
+    color: $clr11
+    font-family: h-u-light
+/*form style content*/
+input:focus
+  outline: none
+.inco
+  width: 100%
+  margin-top: 30px
+  height: 30px
+  font-size: .9em
+  border: none
+  border-bottom: 1px solid darken(white, 15%)
+  padding-left: 10px
+  transition: all .8s ease
+  box-shadow: none
+  background: transparent
+.laco
+  position: relative
+  border: 1px solid transparent
+  transition: all .4s ease
+.laco>span
+  position: absolute
+  top: -32px
+  left: 0
+  white-space: nowrap
+  font-size: 1.1em
+  font-family: h-light
+  letter-spacing: 1px
+  pointer-events: none
+  color: $clr9
+  user-select: none
+  transition: all .4s ease
+
+.submit
+  float: right
+  background-color: transparent
+  font-size: 16px
+  letter-spacing: 1px
+
+
+/* events to react*/
+
+.fullname:focus + label>span,.fullname:valid + label>span,
+.email:focus + label>span,.email:valid + label>span,
+.number:focus + label>span,.number:valid + label>span
+  top: -50px
+  font-size: .8em
+  color: $clr11
+.fullname:valid,
+.email:valid,
+.number:valid
+  border-bottom-color: $clrpass
+.fullname:hover,
+.email:hover,
+.number:hover
+  border-bottom: 1px solid $clrprim2
+.fullname:focus,
+.email:focus,
+.number:focus
+  border-bottom: 2px solid $clrprim2

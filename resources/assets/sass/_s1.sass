@@ -1,0 +1,44 @@
+section#s1
+  height: 500px
+  width: 100%
+.s1-c
+  height: 100%
+  display: flex
+  flex-direction: column
+  justify-content: space-around
+.s1-item1
+  text-align: center
+  cursor: default
+  p
+    color: $clr8
+  .s1-item1-1
+    text-transform: uppercase
+    margin: 20px 0
+    h1
+      font:
+        size: 3em
+        family: h-u-light
+      color: $clr10
+
+.s1-item2
+  transition: all .3s ease
+  text-transform: uppercase
+  user-select: none
+  border: 1px solid black
+  margin: 0 auto
+  text-align: center
+  height: 40px
+  line-height: 40px
+  width: 150px
+  font-family: h-light
+  &:hover
+    background-color: $clrprim
+    border-color: $clrprim
+    border-radius: 20px
+    p
+      color: $clr11
+/* all section for*/
+.s1-item1-1,.s2-item2 div h1
+  letter-spacing: 2px
+.s1-item1 p,.s1-item1-2 p,.s2-item2 div p,.s2-item2 div h3
+  letter-spacing: 1px
